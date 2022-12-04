@@ -6,8 +6,7 @@ public class Handphone extends Perangkat{
         this.fingerprint = fingerprint;
     }
 
-    public void informasi(){
-//       
+    public void informasi(){       
         if(fingerprint == true){
             System.out.println("Handphone ini memiliki drive tipe " + this.drive + " dengan RAM sebesar "+ this.ram + " GB dan processor secepat " + this.processor + " Ghz. Selain itu handphone ini memiliki fingerprint" );
         }else{
