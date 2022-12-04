@@ -1,9 +1,9 @@
 public class MainAPP {
     public static void main(String[] args) {
         // Deklarasi
-        Perangkat perangkat1 = new Perangkat("Adata",2,(float)1.80);
-        Laptop laptop1 = new Laptop("Seagate", 8, (float)2.40, false);
-        Handphone handphone1 = new Handphone("Vgen",3,(float)2.20,false);
+        Perangkat perangkat1 = new Perangkat("Adata",4,(float)1.90);
+        Laptop laptop1 = new Laptop("Seagate", 8, (float)3.60, false);
+        Handphone handphone1 = new Handphone("Vgen",12,(float)4.60,false);
 
         perangkat1.informasi();
         System.out.println();
